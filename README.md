@@ -21,15 +21,9 @@ This solution utilizes YOLO models for both detection and classification of cyto
 
 ## Data Preparation
 
-The `create_cv.py` script is used to prepare the data:
-
--   `get_class_id()`: Creates a mapping from class names to IDs.
--   `write_yolo_labels()`: Writes YOLO-formatted labels for the dataset.
--   `fix()`: Normalizes coordinates to be within the range \[0, 1].
--   `create_cv()`: Generates cross-validation folds and creates symbolic links for images and labels.
--   `write_valid_test_csvs()`: Writes validation and test CSV files for each fold.
--   `create_yolo_classification_folders()`: Creates folders for YOLO classification tasks.
--   `create_cls_cv_subset()`: Creates a subset of the cross-validation data for classification with certain classes removed.
+```python
+python create_cv.py
+```
 
 ## Model Training
 
