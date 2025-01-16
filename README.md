@@ -56,13 +56,7 @@ The `train.sh` script is the entry point for training:
 ```
 
 ## Inference
-
-The `inference.sh` script is used to perform inference:
-
-```bash
-# To inference
-./inference.sh
-```
+Please refer to the [instructions for local inference](https://github.com/xueerchen1990/cytologia_2nd_place/blob/main/notebooks/README.md) to reproduce the best submission
 
 ## Utility Functions
 
